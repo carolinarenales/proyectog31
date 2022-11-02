@@ -22,7 +22,7 @@ router.post('/agregar', function (req,res){
 })
 
 router.delete('/delete', function (req,res){
-    res.send('🤩Mensaje borrado')
+    res.send('🤩Mensaje borrado🤣🤣')
 })
 
 
@@ -34,5 +34,5 @@ app.get('/',(req,res)=>{
 
 
 app.listen(8000, ()=> {
-    console.log('Servidor Corriendo en  http://localhost:8000/')
+    console.log('Servidor Corriendo en http://localhost:8000/')
 })
